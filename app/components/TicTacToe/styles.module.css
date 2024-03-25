@@ -1,0 +1,44 @@
+.game {
+  text-align: center;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.board {
+  display: inline-block;
+}
+
+.boardRow:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.square {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  font-size: 24px;
+  line-height: 100px;
+  text-align: center;
+  border: 1px solid #999;
+}
+
+.resetButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.resetButton:hover {
+  background-color: #45a049;
+}
