@@ -1,0 +1,15 @@
+.ratingContainer {
+  background: #333;
+  width: max-content;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.star {
+  font-size: 48px;
+  color: #777;
+}
+
+.active {
+  color: yellow;
+}

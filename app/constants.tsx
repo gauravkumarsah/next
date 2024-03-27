@@ -7,9 +7,9 @@ export const projects = [
   },
   {
     id: 2,
-    title: 'Project 2',
-    description: 'Description of Project 2',
-    demoLink: '#',
+    title: 'Star Rating',
+    description: 'A star rating used to take feedback',
+    demoLink: '/starrating',
   },
   {
     id: 3,
